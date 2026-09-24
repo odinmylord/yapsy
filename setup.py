@@ -11,4 +11,7 @@ setup(
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: BSD License',
     ],
+    install_requires=[
+        'zombie-imp',
+    ],
 )
