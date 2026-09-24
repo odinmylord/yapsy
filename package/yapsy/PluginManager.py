@@ -580,7 +580,7 @@ class PluginManager(object):
         # Remove candidates list since we don't need them any more and
         # don't need to take up the space
         delattr(self, '_candidates')
-        return processed_plugins_internal_class_schema
+        return processed_plugins
 
     @staticmethod
     def _importModule(plugin_module_name, candidate_filepath):
